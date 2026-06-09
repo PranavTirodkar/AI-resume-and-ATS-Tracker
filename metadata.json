@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Coach",
+  "description": "A production-grade resume analyzer, ATS scorer, and live interactive AI mock interview coach platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

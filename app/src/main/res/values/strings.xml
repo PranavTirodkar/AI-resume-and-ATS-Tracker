@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AI Resume Coach</string>
+    <string name="resume_hint">Paste your resume content here…</string>
+    <string name="jd_hint">Paste the target Job Description (JD) here…</string>
+    <string name="btn_analyze">Analyze Resume &amp; ATS</string>
+    <string name="tab_ats">ATS Scan</string>
+    <string name="tab_interview">Mock Coach</string>
+    <string name="tab_roadmap">Roadmap</string>
+    <string name="tab_settings">Prep &amp; Settings</string>
+    <string name="loading_analysis">Parsing with Gemini AI…</string>
+    <string name="api_active">Operational</string>
+    <string name="btn_upload_pdf">Upload Resume PDF</string>
+    <string name="pdf_uploaded">PDF loaded and extracted successfully!</string>
+    <string name="pdf_error">Could not extract text from selected PDF. Please try pasting manually.</string>
+</resources>
