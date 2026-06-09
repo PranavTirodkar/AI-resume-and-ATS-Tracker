@@ -1,21 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 AI Resume & Mock Interview Coach
 
-# Run and deploy your AI Studio app
+A modern, native Android application designed for ambitious developers making bold career steps. Built with Jetpack Compose and powered by a **Dual-Agent Gemini AI Core**, this app bridges the gap between raw resume writing and passing senior-level technical interviews.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/f0a65a41-d3e6-4b71-b737-24802489b2e7
+## ✨ Key Features
 
-## Run Locally
+*   🔍 **ATS Scanner & Skill Metric Scoring** — Parses raw resumes and compares them directly against target job descriptions to calculate visual skill gap analyses and match percentage rates.
+*   🗺️ **Dynamic Career Roadmap Builder** — Crafts itemized, milestone-driven development maps with structured step-by-step progress tracking.
+*   🎙️ **Conversational Mock Interview Coach** — Offers state-aware voice simulation with real-time quantitative rating feedback (1–10) and deep contextual recommendations.
+*   ⚙️ **Highly Customizable AI Settings** — Tailor interviews by choosing specialized recruiter personas, adjusting seniority difficulty thresholds, and toggling code-level feedback indicators.
+*   💾 **Offline-First Security** — Keeps study logs, personal preparation notes, and mock histories safe using local **Room SQLite** storage.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+---
 
+## 🛠️ Built With
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+*   **Language:** Kotlin (100%)
+*   **UI Framework:** Jetpack Compose / Material Design 3 (M3)
+*   **Database:** Room (Local Persistence)
+*   **AI Engine:** Google Gemini API Integration (`gemini-3.5-flash`)
+*   **Concurrency:** Kotlin Coroutines & Flows
+*   **Network Service:** Retrofit + kotlinx.serialization
