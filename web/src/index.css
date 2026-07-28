@@ -1,0 +1,28 @@
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans antialiased;
+  }
+}
+
+/* Custom Print Styles for Resume Builder PDF download */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #resume-document, #resume-document * {
+    visibility: visible;
+  }
+  #resume-document {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+  }
+}
