@@ -85,12 +85,11 @@ export const Navbar: React.FC = () => {
 
             <Link
               to="/profile"
-              className="flex items-center gap-2 pl-3 border-l border-slate-800 text-sm font-medium text-slate-300 hover:text-white"
+              className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
+              title="Profile & Settings"
             >
-              <div className="w-8 h-8 rounded-full bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-indigo-300 font-bold">
-                {user.name.charAt(0)}
-              </div>
-              <span className="hidden xl:inline">{user.name}</span>
+              <User className="w-4 h-4" />
+              <span className="hidden xl:inline">Profile</span>
             </Link>
           </div>
 

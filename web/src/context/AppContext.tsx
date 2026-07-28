@@ -26,43 +26,33 @@ interface AppContextType {
 }
 
 const defaultResume: ResumeData = {
-  fullName: 'Alex Morgan',
-  email: 'alex.morgan@tech.dev',
-  phone: '+1 (555) 234-5678',
-  linkedin: 'linkedin.com/in/alexm-dev',
-  github: 'github.com/alexm-code',
-  summary: 'Senior Full-Stack & Mobile Software Engineer with 6+ years of experience building scalable distributed web applications, reactive Compose UIs, and integrating AI models into user workflows.',
+  fullName: 'Your Name',
+  email: 'your.email@domain.com',
+  phone: '+1 (555) 000-0000',
+  linkedin: 'linkedin.com/in/yourprofile',
+  github: 'github.com/yourusername',
+  summary: 'Software Engineer with experience building scalable web applications, responsive interfaces, and integrating AI models into user workflows.',
   experiences: [
     {
       id: 'exp-1',
-      company: 'Apex Tech Solutions',
-      role: 'Senior Staff Engineer',
+      company: 'Tech Solutions Inc.',
+      role: 'Software Engineer',
       duration: '2022 - Present',
       bulletPoints: [
-        'Led team of 8 engineers in migrating legacy Android app to Jetpack Compose, improving render frames by 40%.',
-        'Engineered cloud backend services handling over 1.2M daily active API requests with 99.99% uptime.'
-      ]
-    },
-    {
-      id: 'exp-2',
-      company: 'Nexus Software Inc.',
-      role: 'Full Stack Engineer',
-      duration: '2019 - 2022',
-      bulletPoints: [
-        'Built real-time collaboration tools using React, TypeScript, and WebSocket architectures.',
-        'Integrated automated CI/CD pipelines reducing deployment friction by 60%.'
+        'Engineered responsive web applications and backend services with high uptime.',
+        'Collaborated with cross-functional teams to ship key features and optimize performance.'
       ]
     }
   ],
   education: [
     {
       id: 'edu-1',
-      institution: 'University of California, Berkeley',
+      institution: 'University / College',
       degree: 'B.S. in Computer Science',
-      year: '2019'
+      year: '2022'
     }
   ],
-  skills: ['Kotlin', 'TypeScript', 'React', 'Jetpack Compose', 'Node.js', 'System Design', 'Gemini AI', 'Tailwind CSS', 'Docker', 'GraphQL']
+  skills: ['TypeScript', 'React', 'Node.js', 'Python', 'Tailwind CSS', 'Git', 'REST APIs', 'SQL']
 };
 
 const initialApplications: JobApplication[] = [
@@ -83,9 +73,9 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<UserProfile>({
-    name: 'Alex Morgan',
-    email: 'alex.morgan@tech.dev',
-    targetRole: 'Senior Full Stack Engineer',
+    name: 'User',
+    email: 'user@example.com',
+    targetRole: 'Software Engineer',
     experienceLevel: 'Mid-Senior',
     isDarkMode: true,
     plan: 'Pro Member'

@@ -60,9 +60,9 @@ export const DashboardPage: React.FC = () => {
       {/* Welcome Banner */}
       <div className="p-8 rounded-3xl bg-gradient-to-r from-indigo-900/60 via-purple-900/40 to-slate-900 border border-indigo-500/30 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <div>
-          <h1 className="text-3xl font-extrabold text-white">Welcome back, {user.name} 👋</h1>
+          <h1 className="text-3xl font-extrabold text-white">Welcome to AI Resume Coach 👋</h1>
           <p className="text-slate-300 text-sm mt-1">
-            Target Role: <span className="font-semibold text-indigo-300">{user.targetRole}</span> • Senior Career Track
+            Target Role: <span className="font-semibold text-indigo-300">{user.targetRole}</span> • Career Optimization Engine
           </p>
         </div>
         <div className="flex gap-3">
