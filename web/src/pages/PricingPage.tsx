@@ -1,6 +1,6 @@
 import React from 'react';
 import { Check, Sparkles, Zap, Shield } from 'lucide-react';
-import { Link } from 'react_router_dom';
+import { Link } from 'react-router-dom';
 
 export const PricingPage: React.FC = () => {
   const plans = [

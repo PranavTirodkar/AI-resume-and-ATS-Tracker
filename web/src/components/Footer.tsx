@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles, Github, Twitter, Linkedin, Heart } from 'lucide-react';
-import { Link } from 'react_router_dom';
+import { Link } from 'react-router-dom';
 
 export const Footer: React.FC = () => {
   return (

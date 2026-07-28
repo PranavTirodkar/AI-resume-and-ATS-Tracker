@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react_router_dom';
+import { Link, useLocation } from 'react-router-dom';
 import {
   Sparkles,
   LayoutDashboard,

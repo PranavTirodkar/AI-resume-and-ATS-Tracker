@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react_router_dom';
+import { Link } from 'react-router-dom';
 import {
   Sparkles,
   FileCheck,
