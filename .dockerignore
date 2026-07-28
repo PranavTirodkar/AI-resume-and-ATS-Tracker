@@ -1,0 +1,9 @@
+.git
+.gradle
+app/
+node_modules
+web/node_modules
+web/dist
+.DS_Store
+*.apk
+*.aab
