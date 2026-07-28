@@ -1,7 +1,8 @@
 {
   "name": "ai-resume-coach-platform",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "AI Resume Coach & ATS Optimizer SaaS Web Application",
   "scripts": {
     "build": "cd web && npm install && npm run build"
   }
